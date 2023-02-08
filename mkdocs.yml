@@ -1,0 +1,21 @@
+site_name: Steno.fm Help Center
+theme:
+  logo: assets/steno-logo.svg
+  favicon: assets/steno-logo.svg
+  name: material
+  palette:
+    primary: white
+    accent: orange
+  features:
+    - toc.integrate
+    - navigation.tabs
+extra:
+  homepage: https://steno.fm
+  generator: false
+  social:
+    - icon: fontawesome/brands/mastodon 
+      link: https://podcastindex.social/@stenofm
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/stenofm
+    - icon: fontawesome/brands/instagram 
+      link: https://instagram.com/stenofm
