@@ -1,11 +1,23 @@
 site_name: Steno.fm Help Center
 theme:
+  palette: 
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: amber
+      accent: amber
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   logo: assets/steno-logo.svg
   favicon: assets/steno-logo.svg
   name: material
-  palette:
-    primary: white
-    accent: orange
   features:
     - toc.integrate
     - navigation.tabs
@@ -19,3 +31,8 @@ extra:
       link: https://twitter.com/stenofm
     - icon: fontawesome/brands/instagram 
       link: https://instagram.com/stenofm
+nav:
+    - 'index.md'
+    - 'listeners.md'
+    - 'Blog': 'https://blog.steno.fm/'
+    - 'App': 'https://www.steno.fm/'
