@@ -35,6 +35,10 @@ https://www.steno.fm/show/<podcastGUID>/episode/<episodeGUID>
 
 ## Technical Issues
 
+### Unsynced Transcripts
+
+Podcasters have full control over the quality of their transcripts. They might provide caption files with timestamps for every word, every speaker change, or even none at all. All of this affects our ability to deliver a superior user experience. If a uses [dynamic ad insertion](https://soundsprofitable.com/guide-and-article/the-many-flavors-of-dynamic-ad-insertion/), our highlighing may become unsynced as the episode progresses.
+
 ### CORS
 
 If you’re hosting your own transcripts, please ensure that `Access-Control-Allow-Origin: *` is present on the requested resource. Otherwise, browsers will not permit us to request the transcript.
